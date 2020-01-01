@@ -15,10 +15,10 @@ export default class ChromeBoisDomain extends Component {
    * listener that should fire it!
    */
    handlePress=(e)=>{
-     if(e.key=='a'){
+     if(e.key==='a'){
        resize("+")
      }
-     else if(e.key='s'){
+     else if(e.key==='s'){
        resize("-")
      }
    }
